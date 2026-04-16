@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243, 240, 218);
+}
+nav{
+     font-family: "Lato", sans-serif;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 45px;
+    color: aliceblue; 
+}
+nav ul li{
+    padding: 0px 13px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.brand img{
+    padding: 10px;
+    width: 30px;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    height: 67vh;
+    width: 60vw;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 7px;
+    font-size:small;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.songItemContainer{
+    margin-top: 16px;
+}
+.songItems{
+    display: flex;
+    height: 40px;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    margin: 12px;
+    align-items: center;
+    width: 80%;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.songItems img{
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+}
+.timestamp i{
+ cursor: pointer;
+}
+.bottom{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    position: fixed;
+    align-items:  center;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    color: white;
+}
+.icons{
+    margin-top: 17px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 5vw;
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+.songInfo img{
+width: 80px;
+padding: 10px;
+opacity: 0;
+transition: opacity 1s ease-in;
+}
+
+#myProgressBar 
+{
+    width: 50vw;
+    cursor: pointer;
+}
